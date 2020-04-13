@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+body {
+    font-family: "Source Code Pro", sans-serif;
+    background-color: #d9d9d9;
+}
+
+.jumbotron-custom {
+    background-color: #3c6e71;
+    color: white;
+}
+.bg-custom {
+    background-color: #353535;
+}
+.divider {
+    margin: 0;
+    border-right: 1px solid #d9d9d9;
+}
