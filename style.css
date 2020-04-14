@@ -16,7 +16,19 @@ body {
     border-right: 1px solid #d9d9d9;
 }
 
-.about-card {
+.contact-card {
     width: 3.5in;
     height: 2in;
+}
+a {
+    color: rgba(217, 217, 217, 1);
+}
+a:hover {
+    color: rgb(194, 181, 243);
+    text-decoration: none;
+}
+
+.game-links::before {
+    content: "Click here to:";
+    font-weight: bold;
 }
