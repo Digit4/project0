@@ -8,6 +8,9 @@ body {
     background-color: #3c6e71;
     color: white;
 }
+.badge-custom {
+    background-color: rgba(40, 75, 99, 1);
+}
 .bg-custom {
     background-color: #353535;
 }
