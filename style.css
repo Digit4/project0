@@ -1,8 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap");
 /* RGB */
 body {
   font-family: "Source Code Pro", sans-serif;
   background-color: #d9d9d9;
+}
+
+.text, #project-details, .article {
+  font-family: "Miriam Libre", serif;
+  font-size: 17px;
+}
+
+.article {
+  color: #76ffed;
+}
+
+p {
+  font-size: 18px;
+}
+
+#project-details {
+  font-style: italic;
 }
 
 .jumbotron-custom {
