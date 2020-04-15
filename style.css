@@ -1,42 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+/* RGB */
 body {
-    font-family: "Source Code Pro", sans-serif;
-    background-color: #d9d9d9;
+  font-family: "Source Code Pro", sans-serif;
+  background-color: #d9d9d9;
 }
 
 .jumbotron-custom {
-    background-color: #3c6e71;
-    color: white;
+  background-color: #3c6e71;
+  color: white;
 }
+
 .badge-custom {
-    background-color: rgba(40, 75, 99, 1);
+  background-color: #284b63;
 }
+
 .bg-custom {
-    background-color: #353535;
+  background-color: #353535;
 }
+
 .divider {
-    margin: 0;
-    border-right: 1px solid #d9d9d9;
+  margin: 0;
+  border-right: 1px solid #d9d9d9;
 }
 
 .contact-card {
-    width: 3.5in;
-    height: 2in;
-}
-a {
-    color: rgba(217, 217, 217, 1);
-}
-a:hover {
-    color: rgb(194, 181, 243);
-    text-decoration: none;
-}
-@media screen and (max-width: 1200px) {
-    .divider {
-        border: none;
-    }
+  width: 3.5in;
+  height: 2in;
 }
 
-.game-links::before {
-    content: "Click here to:";
-    font-weight: bold;
+a {
+  color: #d9d9d9;
 }
+
+a:hover {
+  color: #c2b5f3;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .divider {
+    border: none;
+  }
+}
+.game-links::before {
+  content: "Click here to:";
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

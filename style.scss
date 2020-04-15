@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+/* RGB */
+$color1: rgba(53, 53, 53, 1);
+$color2: rgba(60, 110, 113, 1);
+$color3: rgba(255, 255, 255, 1);
+$color4: rgba(217, 217, 217, 1);
+$color5: rgba(40, 75, 99, 1);
+$color6: rgba(194, 181, 243, 1);
+
+body {
+    font-family: "Source Code Pro", sans-serif;
+    background-color: $color4;
+}
+
+.jumbotron-custom {
+    background-color: $color2;
+    color: $color3;
+}
+.badge-custom {
+    background-color: $color5;
+}
+.bg-custom {
+    background-color: $color1;
+}
+.divider {
+    margin: 0;
+    border-right: 1px solid $color4;
+}
+
+.contact-card {
+    width: 3.5in;
+    height: 2in;
+}
+a {
+    color: $color4;
+}
+a:hover {
+    color: $color6;
+    text-decoration: none;
+}
+@media screen and (max-width: 1200px) {
+    .divider {
+        border: none;
+    }
+}
+
+.game-links::before {
+    content: "Click here to:";
+    font-weight: bold;
+}
