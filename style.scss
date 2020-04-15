@@ -47,6 +47,9 @@ p {
 .contact-card {
     width: 3.5in;
     height: 2in;
+    a {
+        font-style: italic;
+    }
 }
 a {
     color: $color4;
