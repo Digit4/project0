@@ -27,6 +27,11 @@ a:hover {
     color: rgb(194, 181, 243);
     text-decoration: none;
 }
+@media screen and (max-width: 1200px) {
+    .divider {
+        border: none;
+    }
+}
 
 .game-links::before {
     content: "Click here to:";
